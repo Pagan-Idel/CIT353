@@ -28,7 +28,7 @@ $rightInput = 0
         } elseif ([int]$userNumber -eq $number){
 
             "You are correct, you win!";
-            "You guessed correctly " + $tries + " time(s)!";
+            "You guessed " + $tries + " time(s)!";
             $rightInput = 1;
 
         }
